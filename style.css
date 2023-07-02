@@ -36,11 +36,11 @@ a {
 }
 
 .entry-date {
-    padding: 1em;
+    padding: 1em 0.5em 1em 3em;
     font-weight: bold;
     white-space: nowrap;
 }
 
 .entry-detail {
-    padding: 1em;
+    padding: 1em 0.5em;
 }
