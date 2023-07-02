@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Date Picker</title>
+    <meta charset="utf-8">
+    <title>Nitrome 历史上的今天</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <form>
-    <label for="datepicker">选择日期:</label>
-    <input type="date" id="datepicker" name="datepicker">
-    <button type="button" onclick="handleDate()">提交</button>
-  </form>
+    <div class="head">
+        <h1>Nitrome 的……</h1>
+    </div>
+    <div  class="form">
+        <form>
+            <label for="datepicker">选择日期:</label>
+            <input type="date" id="datepicker" name="datepicker">
+            <button type="button" onclick="handleDate()">提交</button>
+        </form>
+    </div>
 
   <script>
     function handleDate() {
@@ -19,3 +26,4 @@
   </script>
 </body>
 </html>
+<script src="get.js"></script>

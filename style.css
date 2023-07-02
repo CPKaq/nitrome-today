@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: #f9ecc3;
+}
+
+a {
+    text-decoration: none;
+    color: #a47719;;
+}
+
+.head {
+    background: #a47719;
+    padding: 20px 0;
+}
+
+.head h1 {
+    margin: 0;
+}
+
+.form {
+    padding: 20px 0;
+    border-bottom: #967227 solid 1px;
+}
