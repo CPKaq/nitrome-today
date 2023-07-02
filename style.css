@@ -22,3 +22,25 @@ a {
     padding: 20px 0;
     border-bottom: #967227 solid 1px;
 }
+
+.no-entry {
+    color: #a47719;
+    padding: 8em;
+    display: none;
+}
+
+.entry {
+    display: flex;
+    margin: 2em 20%;
+    text-align: left;
+}
+
+.entry-date {
+    padding: 1em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.entry-detail {
+    padding: 1em;
+}
