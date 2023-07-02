@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Date Picker</title>
+</head>
+<body>
+  <form>
+    <label for="datepicker">选择日期:</label>
+    <input type="date" id="datepicker" name="datepicker">
+    <button type="button" onclick="handleDate()">提交</button>
+  </form>
+
+  <script>
+    function handleDate() {
+      var selectedDate = document.getElementById("datepicker").value;
+      console.log("你选择的日期是：" + selectedDate);
+      // 在这里可以进行进一步的处理
+    }
+  </script>
+</body>
+</html>
