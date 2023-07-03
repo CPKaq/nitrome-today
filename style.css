@@ -26,7 +26,7 @@ a {
 .no-entry {
     color: #a47719;
     padding: 8em;
-    display: none;
+    /* display: none; */
 }
 
 .entry {
