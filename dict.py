@@ -1,7 +1,7 @@
 import json
 
 # 读取原始JSON文件
-with open('NitromeEvent.json', 'r') as file:
+with open('NitromeEvent.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # 修改或处理数据
@@ -9,7 +9,7 @@ with open('NitromeEvent.json', 'r') as file:
 
 # print(data[0])
 
-out = [dict() for _ in range(12)]
+out = [{} for _ in range(12)]
 
 for i in range(12):
     for j in range(1, 32):
