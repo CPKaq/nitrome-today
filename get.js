@@ -33,10 +33,12 @@ $(document).ready(function() {
         // 在这里处理读取到的JSON数据
         events = data
         // console.log(events);
-        handleDate();
         })
         .catch(error => {
         // 处理读取错误
         console.error('Error:', error);
+        })
+        .then(() => {
+            handleDate();
         });
 });
