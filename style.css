@@ -23,6 +23,24 @@ a {
     border-bottom: #967227 solid 1px;
 }
 
+.form input {
+    width: 10em;
+    text-align: center;
+    font-family: inherit;
+    border-radius: 0;
+    border: #967227 solid 1px;
+    height: 30px;
+}
+
+.form button {
+    padding: 0 0.5em;
+    height: 32px;
+    border-radius: 0;
+    border: #967227 solid 1px;
+    background: #967227;
+    color: white;
+}
+
 .no-entry {
     color: #a47719;
     padding: 8em;
