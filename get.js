@@ -26,6 +26,7 @@ function handleDate() {
 $(document).ready(function() {
     var today = new Date().toISOString().split('T')[0];
     $("#datepicker")[0].value = today;
+    $("#datepicker").on("change", handleDate);
 
     fetch('event.json')
         .then(response => response.json())
